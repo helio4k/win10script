@@ -221,6 +221,11 @@ Function InstallMediaPlayerClassic {
 	choco install mpc-hc -y
 }
 
+Function InstallGoogleChromeBrowser {
+	Write-Output "Installing Google Chrome Browser"
+	choco install googlechrome -y
+}
+
 ##########
 # Privacy Tweaks
 ##########
