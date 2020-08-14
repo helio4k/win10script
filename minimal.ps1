@@ -36,6 +36,7 @@ $tweaks = @(
 	"InstallMediaPlayerClassic",
 	"InstallGoogleChromeBrowser",
 	"InstallJava",
+	"InstallAdobe",
 
 	### Windows Apps
 	"DebloatAll",
