@@ -33,6 +33,9 @@ $tweaks = @(
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
 	"Install7Zip",
 	"InstallNotepadplusplus",
+	"InstallMediaPlayerClassic",
+	"InstallGoogleChromeBrowser",
+	"InstallJava",
 
 	### Windows Apps
 	"DebloatAll",
