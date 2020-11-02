@@ -284,13 +284,11 @@ Function InstallIrfanview {
 }
 
 Function InstallGoogleChrome {
-	Write-Output "Installing Google Chrome Browser)"
-	choco install googlechrome
+	Show-Choco-Menu -Title "Do you want to install Google Chrome?" -Choco install googlechrome
 }
 
 Function InstallWindowsTerminal {
-	Write-Output "Installing Windows Terminal)"
-	choco install microsoft-windows-terminal
+	Show-Choco-Menu -Title "Do you want to install Windows Terminal?" -Choco install microsoft-windows-terminal
 }
 
 Function ChangeDefaultApps {
