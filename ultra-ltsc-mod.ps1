@@ -288,7 +288,7 @@ Function InstallGoogleChrome {
 	choco install googlechrome
 }
 
-Function InstallWindows Terminal {
+Function InstallWindowsTerminal {
 	Write-Output "Installing Windows Terminal)"
 	choco install microsoft-windows-terminal
 }
